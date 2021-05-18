@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-bitcoin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv-safe": "^8.2.0",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
